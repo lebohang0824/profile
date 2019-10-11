@@ -197,10 +197,21 @@ footer p strong:hover {
  * 760 Screen
  */
 @media all and (max-width: 760px) {
+	.container {
+		width: 100%;
+	}
+
 	.wrapper-1 {
 		width: 100%;
-		grid-template-columns: 1fr;
+		grid-template-columns: 100%;
 	}
+
+	.menu {
+		width: 80%;
+	}
+
+	/*#about, #portfolio, #skills, #hire p {
+	}*/
 
 	#logo {
 		width: 100%;
