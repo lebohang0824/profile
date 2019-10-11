@@ -211,6 +211,11 @@ footer p strong:hover {
 		width: 80%;
 	}
 
+	.github {
+		top: -1em;
+		left: 0em;
+	}
+
 	/*#about, #portfolio, #skills, #hire p {
 	}*/
 
