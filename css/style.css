@@ -196,7 +196,7 @@ footer p strong:hover {
 /**
  * 760 Screen
  */
-@media all and (max-width: 760px) {
+@media all and (max-width: 768px) {
 	.container {
 		width: 100%;
 	}
