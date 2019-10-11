@@ -191,3 +191,19 @@ footer p strong {
 footer p strong:hover {
 	color: #E91E63;
 }
+
+
+/**
+ * 760 Screen
+ */
+@media all and (max-width: 760px) {
+	.wrapper-1 {
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+
+	#logo {
+		width: 100%;
+		height: auto;
+	}
+}
