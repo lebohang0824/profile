@@ -19,46 +19,17 @@ setInterval(function () {
 
 }, 5000);
 
-
 /**
  * Overlay pages
  */
-function about() {
-	let el = document.getElementById('about');
+function display(page, index) {
+	let el = document.getElementById(page);
 
-	count = 1;
-	isActive = false;
-	display(el);
-}
-
-function portfolio() {
-	let el = document.getElementById('portfolio');
-	
-	count = 2;
-	isActive = false;
-	display(el);
-}
-
-function skills() {
-	let el = document.getElementById('skills');
-	
-	count = 0;
-	isActive = false;
-	display(el);
-}
-
-function hire() {
-	let el = document.getElementById('hire');
-
-	count = 3;	
-	isActive = false;
-	display(el);
-}
-
-function display(el) {
+	count = index;
+	isActive = false; // Pause time
 	
 	el.style.display = 'block';
-	bg.style.backgroundColor = colors[count];	
+	bg.style.backgroundColor = colors[count];
 }
 
 /*
